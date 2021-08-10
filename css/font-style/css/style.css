@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+#font1 {
+    color: cyan;
+    font-size: 24px;
+    font-family: serif;
+    font-weight: bold;
+
+}
+
+#font2 {
+    color: #00ffff;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+#layout1 {
+    text-align: right;
+    line-height: 2em;
+}
+
+#layout2 {
+    text-align: center;
+    line-height: 160%;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>テキストの回り込み</title>
+    <style>
+        p {
+            margin-bottom: 15px;
+            line-height: 1.6em;
+        }
+
+        figure {
+            float: right;
+            margin: 0 15px 15px 0;
+            width: 30%;
+        }
+
+        figure img {
+            max-width: 100%;
+        }
+
+        .clear {
+            /* 回り込みの解除 */
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <h2>画像に対してテキストを回り込ませる</h2>
+    <p>コンテンツの途中に画像を挿入して表示する方法。</p>
+    <figure><img src="./images/cat.jpg" alt="猫"></figure>
+    <p>画像に対してfloatプロパティを使い、続くテキストが画像を回り込むような形で表示することができます。</p>
+    <p class="clear">画像を配置する位置は左、右のいずれかを指定します。</p>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>z-index</title>
+    <style>
+        .outside {
+            position: relative;
+        }
+
+        .inside {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+        }
+
+        .red {
+            background: red;
+            z-index: 100;
+        }
+
+        .blue {
+            background: blue;
+            top: 10px;
+            left: 10px;
+            z-index: 10;
+        }
+
+        .green {
+            background: green;
+            top: 20px;
+            left: 20px;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="outside">
+        <div class="inside red"></div>
+        <div class="inside blue"></div>
+        <div class="inside green"></div>
+    </div>
+</body>
+</html>

@@ -5,15 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>画像の練習</title>
+    <style>
+        img {
+            width: 100%;
+        }
+
+        figure {
+            width: 50%;
+            background-color: rgba(0, 238, 255, 0.808);
+            color: rgb(165, 42, 48);
+            padding: 3px;
+        }
+
+        figcaption {
+            text-align: center;
+        }
+    </style>
 </head>
-<body>
-    <!-- 画像 -->
+<!-- 画像 -->
+<figure>
     <img src="images/柴犬の天使.jpg" alt="犬" width="700" height="500">
+    <figcaption>わんわん</figcaption>
+</figure>
+<figure>
     <img src="./images/味噌ラーメン.jpg" alt="味噌ラーメン" width="700" height="500">
+</figure>
+<figure>
     <img src="./images/Black Pink.jpg" alt="ロゴ" width="700" height="500">
-    <!-- 地図 -->
-    <iframe title="北海道" width="700" height="500" src="https://tenki.jp/forecast/1/2/1400/1100/10days.html"
-        frameborder="0">
-    </iframe>
+</figure>
+<!-- 地図 -->
+<iframe title="北海道" width="700" height="500" src="https://tenki.jp/forecast/1/2/1400/1100/10days.html" frameborder="0">
+</iframe>
 </body>
 </html>

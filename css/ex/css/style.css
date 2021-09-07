@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+.red {
+    color: red;
+    background-color: coral;
+    width: 17px;
+    text-align: center;
+}
+
+.blue {
+    color: blue;
+    background-color: aqua;
+    width: 17px;;
+    text-align: center;
+}
+
+.green {
+    color: green;
+    background-color:greenyellow;
+    width: 17px;;
+    text-align: center;
+}

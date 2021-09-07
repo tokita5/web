@@ -1,27 +1,48 @@
 @charset "utf-8";
 
 #font1 {
-    color: cyan;
+    color: rgba(4, 13, 24, 0.932);
     font-size: 24px;
     font-family: serif;
     font-weight: bold;
-
+    text-align: center;
 }
 
 #font2 {
-    color: #00ffff;
+    color: #ff0000;
     font-size: 1.5rem;
     font-family: sans-serif;
     font-weight: lighter;
     font-style: italic;
+    text-align: center;
 }
 
 #layout1 {
+    color: #3700ff;
     text-align: right;
     line-height: 2em;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: unset;
+    text-align: center;
 }
 
 #layout2 {
+    color: #130505;
     text-align: center;
     line-height: 160%;
+    font-weight: 700;
+    font-family: fantasy;
+    font-style: inherit;
+    text-align: center;
+}
+
+#layout3 {
+    color: #ff0000;
+    text-align: center;
+    line-height: 160%;
+    font-weight: 700;
+    font-family: unset;
+    text-align: center;
+    font-style: unset;
 }

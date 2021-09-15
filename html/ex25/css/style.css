@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+.wrapper {
+    width: 100%;
+    background-image: url(../images/青い池.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.wrapper .container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 80px 0px;
+}
+
+.wrapper .content {
+    padding: 50px;
+    text-align: center;
+}
+
+.wrapper .container .content {
+    margin: 0px 0px 40px 0px;
+    color: black
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center;
+}
+
+@media(min-width:992px) {
+    .wrapper .content .list
+    display: flex:
+    align-items: center;
+}
+
+.wrapper .container .list-item {
+    padding: 30px;
+    ;line-height: 1.8rem;
+    color:aliceblue;
+    text-align: center;
+}
+
+@media (min-width:992px) {
+    .wrapper .container .list-item
+    width: 50%;
+}

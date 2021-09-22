@@ -10,7 +10,7 @@ html {
 
 .container {
     width: 80%;
-    margin: 2rem auto;
+    margin: auto;
 }
 
 body {
@@ -33,7 +33,7 @@ h1,h2,h3,h4,h5,h6 {
     display: block;
     text-decoration: none;
     text-align: center;
-    color: black;
+    color: black;;
 }
 
 /* 文字の大きさ */

@@ -15,15 +15,13 @@
 
 .body {
     font-family: 'Noto Sans JP', sans-serif;
-    background-image: url(./images/Salar\ De\ Uyuni\ 1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: rgb(100, 149, 237);
 }
 
 .h1,h2,h3,h4,h5,h6 {
     font-family: 'Kaisei HarunoUmi', serif;
     margin-bottom: 0.5rem;
-    margin-left: 10rem;
+    margin-left: 3rem;
     margin-top: 1rem;
     font-size: 2rem;
 }
@@ -39,7 +37,7 @@
 }
 
 .h2 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 .p {
@@ -53,7 +51,7 @@
 
 .mb-1rem {
     margin-bottom: 1.5rem;
-    margin-left: 10rem;
+    margin-left: 5rem;
     margin-top: 1rem;
     font-size: 20px;
 }
@@ -72,18 +70,11 @@
     font-size: 20px;
     text-decoration: none;
     text-align: center;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    margin-left: 11rem;
-    color:navy
+    color:red
 }
 
-.mb-2rem {
-    margin-bottom: 1.5rem;
-    margin-left: 0rem;
-    margin-right: 3rem;
-    margin-top: 0.5rem;
-    font-size: 20px;
+.blue {
+    background-color: lightskyblue;
 }
 
 @media screen {

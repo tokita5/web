@@ -23,7 +23,7 @@
 .h1,h2,h3,h4,h5,h6 {
     font-family: 'Kaisei HarunoUmi', serif;
     margin-bottom: 0.5rem;
-    margin-left: 10rem;
+    margin-left: 7rem;
     margin-top: 1rem;
     font-size: 2rem;
 }
@@ -53,7 +53,7 @@
 
 .mb-1rem {
     margin-bottom: 1.5rem;
-    margin-left: 10rem;
+    margin-left: 8rem;
     margin-top: 1rem;
     font-size: 20px;
 }
@@ -69,13 +69,9 @@
 
 .inline-block>a {
     display: block;
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: none;
-    text-align: center;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    margin-left: 11rem;
-    color:navy
+    color:black
 }
 
 .mb-2rem {
@@ -86,6 +82,29 @@
     font-size: 20px;
 }
 
-@media screen {
-
+.table {
+    border-collapse: collapse;
 }
+
+th {
+    border: solid 3px black;
+    margin-left: 3px;
+}
+
+.mb-3rem {
+    width: 1450px;
+    max-width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 2rem;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.clip-ellipse {
+    width: 300px;
+    height: 330px;
+    border-radius: 80%;
+    background-position: left top;
+    display: inline-block;
+    border: 5px solid black;

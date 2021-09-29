@@ -80,7 +80,9 @@
 .clip-ellipse {
     width: 300px;
     height: 300px;
+    margin-top: 4rem;
     margin-right: 7rem;
+    margin-left: 10rem;
     background-position: left top;
     border: 5px solid black;
 }
@@ -88,8 +90,77 @@
 .clip-ellipse2 {
     width: 300px;
     height: 300px;
-    margin-top: 20rem;
+    margin-top: 22rem;
+    margin-left: 10rem;
     margin-right: 6rem;
     background-position: left top;
     border: 5px solid black;
+}
+
+.type-stripe {
+  height: 5px;
+  background: linear-gradient(-45deg, #3498DB 25%, #fff 25%, #fff 50%, #3498DB 50%, #3498DB 75%, #fff 75%, #fff);
+  -webkit-animation: stripeBg 10s linear infinite;
+  background-size: 10px 10px;
+  border: 1px solid #34dbdb;
+  }
+@-webkit-keyframes stripeBg {
+ 0% {background-position: 0 0;}
+100% {background-position: 100% 0;}
+}
+
+@import "compass/css3";
+
+body{
+  background:black;
+  font-family: 'Varela', sans-serif;
+}
+
+.glitch{
+  color:white;
+  font-size:100px;
+  position:relative;
+  width:400px;
+  margin:0 auto;
+}
+@keyframes noise-anim{
+  $steps:20;
+  @for $i from 0 through $steps{
+    #{percentage($i*(1/$steps))}{
+      clip:rect(random(100)+px,9999px,random(100)+px,0);
+    }
+  }
+}
+.glitch:after{
+  content:attr(data-text);
+  position:absolute;
+  left:2px;
+  text-shadow:-1px 0 red;
+  top:0;
+  color:white;
+  background:black;
+  overflow:hidden;
+  clip:rect(0,900px,0,0);
+  animation:noise-anim 2s infinite linear alternate-reverse;
+}
+
+@keyframes noise-anim-2{
+  $steps:20;
+  @for $i from 0 through $steps{
+    #{percentage($i*(1/$steps))}{
+      clip:rect(random(100)+px,9999px,random(100)+px,0);
+    }
+  }
+}
+.glitch:before{
+  content:attr(data-text);
+  position:absolute;
+  left:-2px;
+  text-shadow:1px 0 blue;
+  top:0;
+  color:white;
+  background:black;
+  overflow:hidden;
+  clip:rect(0,900px,0,0);
+  animation:noise-anim-2 3s infinite linear alternate-reverse;
 }

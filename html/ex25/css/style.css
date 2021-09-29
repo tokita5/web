@@ -108,3 +108,8 @@ th {
     background-position: left top;
     display: inline-block;
     border: 5px solid black;
+}
+
+.mb-4rem {
+    font-size: 50px;
+}
